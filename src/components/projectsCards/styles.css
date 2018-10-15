@@ -1,0 +1,63 @@
+@media (min-width: 250px) {
+    .project {
+        background: white url(./metal1.jpg) no-repeat center center;
+        background-size: 100% 100%;
+        width: 35%;
+        height: 60%;
+        color: white;
+        font-size: 12px;
+    }
+
+    .project:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    .project:hover .project__second__layer_description {
+        display: block;
+    }
+
+    .project__second__layer {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .project__second__layer_title {
+        font-size: 10px;
+    }
+
+    .project__second__layer_done {
+        text-align: end;
+        padding-right: 5px;
+        color: white;
+        animation: Test 2s infinite;
+    }
+
+    @keyframes Test {
+        50% {color: black}
+    }
+
+    .project__second__layer_description {
+        text-align: start;
+        font-size: smaller;
+        padding-left: 5px;
+        display: none;
+    }
+}
+@media (min-width: 760px) {
+    .project {
+        font-size: 16px;
+    }
+    .project__second__layer_title {
+        font-size: 16px;
+    }
+}

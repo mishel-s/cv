@@ -1,0 +1,67 @@
+@media (min-width: 250px) {
+    a:hover {
+        text-decoration: none;
+    }
+
+    .contacts__main {
+        width: 100%;
+        color: #1d334f;
+        font-size: 10px;
+    }
+
+    hr {
+        color: #1d334f;
+        width: 40%;
+        margin-top: 0;
+    }
+
+    .contacts__main_title {
+        animation: Test 5s infinite;
+    }
+
+    @keyframes Test {
+        20% {color: white}
+        40% {color: red}
+        60% {color: #1d334f}
+        80% {color: yellow}
+        100% {color: darkturquoise}
+    }
+
+    .contacts__main__description {
+        color: #1d334f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts__main__description_info {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .email, .fb, .github, .phone {
+        display: flex;
+        align-items: center;
+        color: #1d334f;
+    }
+
+    .email:hover, .fb:hover, .github:hover, .phone:hover {
+        font-weight: bold;
+    }
+
+    .logoemail, .logofb, .logogithub, .logophone {
+        width: 20%;
+        /*height: 40px;*/
+        margin-right: 10px;
+    }
+}
+@media (min-width: 760px) {
+    .contacts__main {
+        font-size: 16px;
+    }
+    .contacts__main__description_info {
+        width: 30%;
+    }
+}

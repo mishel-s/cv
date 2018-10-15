@@ -1,0 +1,13 @@
+.profile__description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profile__description__left__main {
+    width: 80%;
+}
+
+.profile__description__left__main p {
+    text-align: start;
+}

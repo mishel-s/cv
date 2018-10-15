@@ -1,0 +1,63 @@
+@media (min-width: 250px) {
+    .profile {
+        display: flex;
+        flex-direction: column;
+        color: #1d334f;
+        font-size: 10px;
+    }
+
+    .profile__tabs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .profile__tabs__buttons {
+        border-top: 2px solid #1d334f;
+        width: 30%;
+        padding-top: 1px;
+    }
+
+    .profile__tabs__buttons_main, .profile__tabs__buttons_education {
+        background-color: #1a81b7;
+        color: white;
+        border: none;
+        width: 50%;
+        height: 30px;
+        margin-bottom: 50px;
+        font-size: 10px
+    }
+
+    .profile__tabs__buttons_mainSelected, .profile__tabs__buttons_educationSelected {
+        font-weight: bold;
+    }
+
+    .profile__tabs__buttons_main:hover, .profile__tabs__buttons_education:hover {
+        font-weight: bold;
+        border-bottom-color: white;
+    }
+
+    .profile__tabs__buttons_main {
+        border-bottom-left-radius: 10px;
+        border-right: 1px solid white;
+    }
+
+    .profile__tabs__buttons_education {
+        border-bottom-right-radius: 10px;
+        border-left: 1px solid white;
+    }
+
+    .active {
+        color: #1d334f;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 760px) {
+    .profile {
+        font-size: 16px;
+    }
+    .profile__tabs__buttons_main, .profile__tabs__buttons_education {
+        font-size: 14px
+    }
+}

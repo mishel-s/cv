@@ -1,0 +1,24 @@
+@media (min-width: 700px) {
+    /*Tablet and desktop styles*/
+    .container {
+        background-color: #e5edf1;
+        padding: 10px;
+        height: 100vh;
+    }
+
+    .mainContent {
+        display: flex;
+        flex-direction: column;
+        color: green;
+        border-radius: 5px;
+    }
+
+    .mainInfo {
+        width: 75%;
+    }
+}
+@media (min-width: 760px) {
+    .mainContent {
+        flex-direction: row;
+    }
+}

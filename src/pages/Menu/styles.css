@@ -1,0 +1,162 @@
+@media (min-width: 250px) {
+    .sideBar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1d334f;
+        /*width: 100%;*/
+        padding: 15px;
+        color: white;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        height: 100%;
+    }
+
+    .sideBar h3 {
+        width: 30%;
+        font-size: 14px;
+    }
+
+    .logoMishel {
+        height: 15vh;
+        border-radius: 10px;
+    }
+
+    .email {
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoemail {
+        width: 10%;
+        margin-right: 10px;
+    }
+
+    .phone {
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logophone {
+        width: 10%;
+        margin-right: 10px;
+    }
+
+    .phonelink {
+        text-decoration: underline;
+    }
+
+    .phonelink:hover {
+        color: deepskyblue;
+    }
+
+    .bt_menu {
+        background-color: deepskyblue;
+        border-radius: 5px;
+        border: none;
+        height: 30px;
+        width: 80px;
+        font-size: 10px;
+    }
+
+    .menuDd {
+        width: 20px;
+        height: 20px;
+        border: 1px solid white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menuDd_lines {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menuDd_first, .menuDd_second, .menuDd_third {
+        border: 1px solid white;
+        width: 50%;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    .menuDd_second {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .menuDd .navWrapper {
+        display: flex;
+        width: 40%;
+        position: absolute;
+        right: 100%;
+        top: 25%;
+        background-color: #1d334f;
+        border: 1px solid white;
+        transition: 0.2s ease-in;
+        z-index: 101;
+    }
+
+    .navWrapper__innerBlock {
+        width: 90%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .menuDd .navWrapper a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+}
+@media (min-width: 760px) {
+    .sideBar {
+        width: 25%;
+        flex-direction: column;
+    }
+
+    .sideBar h3 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .logoMishel {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 45vh;
+        border-radius: 25px;
+    }
+
+    .email {
+        display: flex;
+    }
+
+    .phone {
+        display: flex;
+    }
+
+    .bt_menu {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .bt_menu:hover {
+        background-color: #1a81b7;
+        color: white;
+        font-weight: bold;
+    }
+
+    .menuDd {
+        display: none;
+    }
+}

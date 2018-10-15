@@ -1,0 +1,40 @@
+.profile__description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profile__description__left, .profile__description__right {
+    width: 40%;
+    display: flex;
+}
+
+.profile__description__left__main, .profile__description__right__other {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.profile__description__left__main, .profile__description__right__other p {
+    text-align: start;
+}
+
+.profile__quote {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__quote_text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.profile__quote_author {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}

@@ -1,0 +1,60 @@
+.experience__2013 {
+    display: flex;
+    color: #1d334f;
+    height: 55px;
+    margin-top: 3px;
+}
+
+.experience__2013:hover {
+    background-color: deepskyblue;
+}
+
+.experience__2013:hover .experience__2013__img_cylinder{
+    background-color: #1d334f;
+}
+
+.experience__2013__year {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.experience__2013__img {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience__2013__img_divider {
+    background-color: deepskyblue;
+    width: 5%;
+    margin-left: 12.5%;
+    height: 1px;
+    margin-top: 3px;
+}
+
+.experience__2013__img_cylinder {
+    background-color: deepskyblue;
+    width: 10%;
+    height: 100%;
+}
+
+.experience__2013__description {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 0;
+}
+
+.experience__2013 p {
+    text-align: start;
+    margin: 0;
+}
