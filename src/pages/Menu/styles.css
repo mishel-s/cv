@@ -7,9 +7,9 @@
         /*width: 100%;*/
         padding: 15px;
         color: white;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-        height: 100%;
+        /*border-top-left-radius: 5px;*/
+        /*border-bottom-left-radius: 5px;*/
+        height: 60px;
     }
 
     .sideBar h3 {
@@ -18,7 +18,7 @@
     }
 
     .logoMishel {
-        height: 15vh;
+        height: 12vh;
         border-radius: 10px;
     }
 
@@ -62,8 +62,8 @@
     }
 
     .menuDd {
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
         border: 1px solid white;
         border-radius: 5px;
         display: flex;
@@ -73,6 +73,10 @@
     }
 
     .menuDd_lines {
+        width: 100%;
+    }
+
+    .menuDdblock_lines {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -97,7 +101,7 @@
         width: 40%;
         position: absolute;
         right: 100%;
-        top: 25%;
+        top: 90px;
         background-color: #1d334f;
         border: 1px solid white;
         transition: 0.2s ease-in;
@@ -121,6 +125,9 @@
     .sideBar {
         width: 25%;
         flex-direction: column;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        height: 100%;
     }
 
     .sideBar h3 {

@@ -30,7 +30,7 @@ class Experience extends Component {
                                 period="January 2013 - June 2011, " company='PJSC "UkrSibbank":'
                                 companyPosition="personal financial consultant (grow from intern to PFC, third position)." />
                 <div className={styles.experience__footer}>
-                    <div className={styles.experience__footer_arrow}></div>
+                    {/*<div className={styles.experience__footer_arrow}></div>*/}
                     <span><b>Education</b></span>
                 </div>
             </div>

@@ -19,7 +19,7 @@ class App extends Component {
             <div className={Appcss.mainInfo}>
                 <Navigation/>
                 <Switch>
-                    <Route exact path='/' component={Profile}/>
+                    <Route exact path='/cv' component={Profile}/>
                     <Route path='/experience' component={Experience}/>
                     <Route path='/skills' component={Skills}/>
                     <Route path='/projects' component={Projects}/>
